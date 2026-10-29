@@ -1,6 +1,6 @@
 <h1>ExpNo 8 : Solve Cryptarithmetic Problem,a CSP(Constraint Satisfaction Problem) using Python</h1> 
-<h3>Name:               </h3>
-<h3>Register Number/Staff Id:       </h3>
+<h3>Name: Kamlesh Y              </h3>
+<h3>Register Number: 212224100029      </h3>
 <H3>Aim:</H3>
 <p>
     To solve Cryptarithmetic Problem,a CSP(Constraint Satisfaction Problem) using Python
@@ -31,46 +31,10 @@ Input − A list of nodes, the number of elements in the node list and three wor
 
 Output − True if the sum of the value for word1 and word2 is same as word3 value.<br>
 
-Begin<br>
-   m := 1<br>
-   for each letter i from right to left of word1, do<br>
-      ch := word1[i]<br>
-      for all elements j in the nodeList, do<br>
-         if nodeList[j].letter = ch, then<br>
-            break<br>
-      done<br>
-      val1 := val1 + (m * nodeList[j].value)<br>
-      m := m * 10<br>
-   done<br>
+### Program
+```python
+```
 
-   m := 1<br>
-   for each letter i from right to left of word2, do<br>
-      ch := word2[i]<br>
-      for all elements j in the nodeList, do<br>
-         if nodeList[j].letter = ch, then<br>
-            break<br>
-      done<br>
-
-      val2 := val2 + (m * nodeList[j].value)
-      m := m * 10
-   done<br>
-
-   m := 1<br>
-   for each letter i from right to left of word3, do<br>
-      ch := word3[i]<br>
-      for all elements j in the nodeList, do<br>
-         if nodeList[j].letter = ch, then<br>
-            break<br>
-      done<br>
-
-      val3 := val3 + (m * nodeList[j].value)
-      m := m * 10
-   done<br>
-
-   if val3 = (val1 + val2), then<br>
-      return true<br>
-   return false<br>
-End<br>
 <hr>
 <h2>Sample Input and Output:</h2>
 SEND = 9567<br>
@@ -78,5 +42,10 @@ MORE = 1085<br>
 <hr>
 MONEY = 10652<br>
 <hr>
+
+### Output
+
+<img width="1153" height="820" alt="Screenshot 2026-10-29 093806" src="https://github.com/user-attachments/assets/9d0d004c-76a9-46ac-8ec9-a0a001e8f50c" />
+
 <h2>Result:</h2>
 <p> Thus a Cryptarithmetic Problem was solved using Python successfully</p>
